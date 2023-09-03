@@ -32,8 +32,8 @@
 /vendor/
 
 # Assets and user uploads
-/web/bundles/
-/web/uploads/
+/public/bundles/
+/public/uploads/
 
 # PHPUnit
 /app/phpunit.xml
@@ -63,3 +63,11 @@
 
 # Enviroments
 .env.local
+
+###> pentatrion/vite-bundle ###
+/node_modules/
+/public/app/
+###< pentatrion/vite-bundle ###
+
+# IDE
+/.idea/
