@@ -1,0 +1,20 @@
+// import scss color variables
+@import './abstracts/variables/colors';
+@import './abstracts/variables/settings';
+
+// import base styling
+@import './base/base';
+@import './base/fonts';
+@import './base/typography';
+
+// import component styling
+@import './components/btn';
+@import './components/card';
+@import './components/forgot-password';
+@import './components/form';
+@import './components/icon';
+@import './components/navbar';
+
+// import layout styling
+@import './layouts/footer';
+@import './layouts/header';
