@@ -1,0 +1,30 @@
+{
+    "extends": [
+        "stylelint-config-recommended",
+        "stylelint-config-sass-guidelines"
+    ],
+    "plugins": [
+        "stylelint-scss",
+        "stylelint-order",
+        "stylelint-config-rational-order/plugin"
+    ],
+    "rules": {
+        "indentation": 4,
+        "selector-class-pattern": "[-a-z1-9](__[-a-z1-9])?(--[-a-z1-9])?",
+        "max-nesting-depth": 4,
+        "no-descending-specificity": null,
+        "order/properties-order": [],
+        "plugin/rational-order": [true, {
+            "border-in-box-model": true,
+            "empty-line-between-groups": false
+        }],
+        "selector-type-no-unknown": [true, {
+            "ignore": ["custom-elements"]
+        }],
+        "order/properties-alphabetical-order": null,
+        "string-quotes": "single",
+        "declaration-empty-line-before": "never",
+        "selector-max-compound-selectors": 4,
+        "selector-no-qualifying-type": null
+    }
+}
