@@ -3,16 +3,16 @@ import symfonyPlugin from "vite-plugin-symfony";
 
 export default defineConfig({
     plugins: [
-        symfonyPlugin(),
+        symfonyPlugin()
     ],
     base: './',
     build: {
-        outDir: './public/app',
+        outDir: './public',
         emptyOutDir: false,
         rollupOptions: {
             input: {
                 app: "./app/js/app.js",
-                theme: "./app/scss/main.scss"
+                main: "./app/scss/main.scss"
             },
         }
     },
