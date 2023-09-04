@@ -1,0 +1,7 @@
+pentatrion_vite:
+  public_dir: /public
+  base: ./
+  proxy_origin:
+  throw_on_missing_entry: false
+  script_attributes:
+  link_attributes:
