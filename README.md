@@ -11,6 +11,6 @@
 10. sudo -u www-data <php-version> bin/console cache:clear
 
 # Versionen
-npm: v10.0.0
-node: v18.17.0
-php: 8.2
+npm: v10.0.0 <br>
+node: v18.17.0 <br>
+php: 8.2 <br>
