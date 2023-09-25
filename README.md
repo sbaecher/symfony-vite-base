@@ -5,10 +5,8 @@
 4. sudo chown -R www-data:www-data . && sudo chmod -R 775 .
 5. sudo -u www-data <php-version> composer.phar install
 6. npm i
-7. sudo chown -R www-data:www-data . && sudo chmod -R 775 .
-8. npm run-script build
-9. sudo chown -R www-data:www-data . && sudo chmod -R 775 .
-10. sudo -u www-data <php-version> bin/console cache:clear
+7. npm run build
+8. sudo -u www-data <php-version> bin/console cache:clear
 
 # Versionen
 npm: v10.0.0 <br>
